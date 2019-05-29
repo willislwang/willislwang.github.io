@@ -1,0 +1,4 @@
+#complete access
+
+User-agent: *
+Disallow:

@@ -1,0 +1,38 @@
+/* Custom Stylesheet */
+
+
+/*Text Colors*/
+.custom-blue {
+  color: #60E1E0;
+}
+
+.custom-grey-light {
+  color: #E6F1FF
+}
+
+.custom-grey-dark {
+  color: #8892B0
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.navbar {
+  background-color: #0A192F
+}
+
+#logo-container {
+  height: 64px;
+}
+#logo {
+  height: 100%;
+}
+#index-banner {
+  background-color: #0A192F;
+  height: 100vh
+}

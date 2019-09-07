@@ -119,12 +119,43 @@
 }
 
 
+/* projects css */
+#projects {
+  height: 100vh;
+}
+.project-container {
+  position: absolute;  
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
 
+.card {
+  border: 0!important;
+  background-color: #172a45;
+  color: #E6F1FF;
+}
+
+.card-reveal {
+  border: 0!important;
+  box-shadow: none!important;
+  background-color: #172a45!important;
+  color: #E6F1FF!important;
+}
+
+.card-text {
+  color: #8892B0!important;
+}
+
+.card-link {
+  color: #60E1E0;
+}
 /* footer */
 
 .page-footer {
   background-color: #020c1b;
-  color: #8892B0
+  color: #8892B0;
 }
 
 .footer-links {

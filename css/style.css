@@ -33,7 +33,9 @@
   color: #8892B0;
 }
 
-
+.center {
+  text-align: center;
+}
 
 /* index css */
 .icon-block {
@@ -161,4 +163,25 @@
 .footer-links {
   padding-right: 10px;
   padding-left: 10px;
+}
+
+
+
+/* 404 */
+.errorpage {
+  background-color: #0A192F;
+  height: 100vh;
+}
+
+.error-container {
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.error-head {
+  font-size: 10em;
+  color: #60E1E0
 }

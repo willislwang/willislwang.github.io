@@ -1,2 +1,2 @@
-# kawaiiCirno.github.io
-My own page!
+# willislwang.github.io
+My page! Will rewrite from scratch soon.

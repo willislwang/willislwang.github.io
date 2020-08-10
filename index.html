@@ -4,143 +4,94 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <link rel="icon" href="assets/img/logo.png">
-  <title>Willis Wang | Programmer</title>
-  
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <title>Willis Wang</title>
+  <style>
+    body{
+      font-family: 'Libre Baskerville', serif;
+      font-weight = normal;
+      letter-spacing: 0.006em;
+      line-height: 1.5em;
+      color: #222;
+      background: #fff;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+    }
+    @media screen and (max-width: 767px) {
+      body {
+        font-size: 15px;
+      }
+    }
+    .inner-wrap {
+      max-width: 620px;
+      margin: 0 auto;
+    }
+    .inner-wrap:after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+    .outer-gap {
+      width: calc(100% - 40px);
+      padding: 0 20px;
+    }
+    header {
+      padding: 120px 0;
+    }
+    .logo {
+      font-size: 2.3rem;
+      margin-bottom: 40px;
+    }
+    
+    h1 {
+      font-size: 25px;
+      font-weight: normal;
+      line-height: : 155%;
+      margin-bottom: 20px;
+    }
+    
+    footer {
+      border-top: 1px solid #bbb;
+    }
+    a {
+      color: #03798b;
+      text-decoration: none;
+      padding-right: 12px;
+      font-size: 17px;
+    }
+    a:hover {
+      text-decoration: underline;
+    } 
+    @media (prefers-color-scheme: dark) {
+        body {
+          color: #ccc;
+          background: #000;
+        }
+        a {
+          color: #80ecfc;
+        }
+      }
+  </style>
+
 </head>
 <body>
-  <nav class="navbar z-depth-0" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">
-        <img id="logo" src="assets/img/logo.png"/>
-      </a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#about" class="custom-blue-text">About</a></li>
-        <li><a href="#projects" class="custom-blue-text">Projects</a></li>
-        <li><a href="#"><a class="custom-blue-text">Contact</a></a></li>
-        <a class="waves-effect waves-light btn custom-blue custom-grey-light-text" href="https://willislwang.github.io/resume/"><i class="material-icons right">assignment_ind
-          </i>resume</a>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav navbar">
-        <li><a href="#"><a class="custom-blue-text">About</a></a></li>
-        <li><a href="#"><a class="custom-blue">Projects</a></a></li>
-        <li><a href="#"><a class="custom-blue">Contact</a></a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  <header>
+    <div class="inner-wrap outer-gap">
+      <div class="logo">Willis Wang</div>
+      <a href="https://www.linkedin.com/in/willis-wang-39879540/">Linkedin</a>
+      <a href="https://willislwang.github.io/resume/">Resume</a>
+      <a href="https://github.com/willislwang">Github</a>
     </div>
-  </nav>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="introduction">
-      <h6 class="custom-blue-text">Hello! My name is</h6>
-      <h1 class="custom-grey-light-text">Willis Wang</h1>
-      <h3 class="custom-grey-dark-text">I am a full time computer science student.</h3>
-    </div>
-  </div>
-
-
-  <div class="custom-blue-dark" id="about">
-    <div class="container about-container">
-      <div class="section">
-        <h3 class="custom-grey-light-text"><a class="numbering">1.</a> About Me</h3>
-        <br><br><br>
-        <!--   Icon Section   -->
-        <div class="row">
-          <div class  ="col s12 m6">
-            <div class="face-block">
-              <img id="face-pic" src="assets/img/face_pic.png"/>
-            </div>
-          </div>
-          <div class="col s12 m6">
-            <br><br>
-            <ul class="collapsible popout z-depth-0">
-              <li>
-                <div class="collapsible-header"><i class="material-icons ">school</i>Student</div>
-                <div class="collapsible-body"><span>I am currently a sophmore studying computer science at UC Berkeley. Currently looking to expand upon my horizons and touch into various areas in computer science.</span></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="material-icons">code</i>Programmer</div>
-                <div class="collapsible-body"><span>Fluent in various programming languages including C++, Java, and Python. Check out my <a href="https://github.com/willislwang" style="text-decoration: none">github</a> to see what I have and am currently working on!</span></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="material-icons">headset</i>Enthusiast</div>
-                <div class="collapsible-body"><span>I am an audio enthusiast and mechanical keyboard enthuthiast. My current audio setup is a Sennheiser HD600 with a Hifimidiy Sabre 9018 dac+amp and Filco Majestouch with MX Browns.</span></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="material-icons">queue_music</i>Pianist</div>
-                <div class="collapsible-body"><span>I play piano for fun! A big fan of classical music. I also occasionally transcribe other genres of music onto the piano.</span></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="material-icons">mouse</i>Gamer</div>
-                <div class="collapsible-body"><span>I am also the current captain for Cal's Dota 2 team! Currently Immortal rank this season <a href="http://www.dota2.com/leaderboards/#americas" style="text-decoration: none">@Cirno.</a></span></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  </header>
   
-  <div class="custom-blue-dark" id="projects">
-    <div class="container project-container">
-      <h3 class="custom-grey-light-text"><a class="numbering">2.</a> Projects</h3>
-      <br><br><br>
-      <div class="row">
-        <div class="col s12 m5">
-          <div class="card z-depth-0">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/img/git2.png">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator">Gitlet<i class="material-icons right">more_vert</i></span>
-              <p><a class="card-link" href="https://github.com/willislwang/">Github</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title">Gitlet<i class="material-icons right">close</i></span>
-              <p class="card-text">A clone of the popular file organization program git written from scratch in Java. Includes all non-remote functions, including simple functions such as commit/push, as well as more advanced functions such as branching, logging, and merging.</p>
-            </div>
-          </div>
-        </div>
-      <div class="col s12 m5 offset-m2">
-        <div class="card z-depth-0">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/img/discord.png">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator">UwUbot<i class="material-icons right">more_vert</i></span>
-              <p><a class="card-link" href="https://github.com/willislwang/uwubot">UwUbot</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title">UwUbot<i class="material-icons right">close</i></span>
-              <p class="card-text">A fun discord bot with the intent of making cute comments and spreading culture, translating any previous comment into uwu language. Uses the discord.py API and is a verifed, freely usable bot on Discord!</p>
-            </div>
-          </div>
-      </div>
-    </div>          
-  </div>
-  </div>
-  
-  
-  <footer class="page-footer">
-    <div class="container center row">
-      Designed & Built by Willis with the help of Materialize.css
+  <content>
+    <div class="inner-wrap outer-gap">
+      <h1>Hi! This is my new static website!</h1>
+      I'll be adding more content later. <br>
+      For now, try playing around by changing light and dark theme!
+      
     </div>
-    <div class="container center">
-      <a class="footer-links" href="https://github.com/willislwang" style="color:#8892B0"><i class="fab fa-github-square fa-2x"></i></a>
-      <a class="footer-links" href="https://www.linkedin.com/in/willis-wang-39879540/" style="color:#8892B0"><i class="fab fa-linkedin fa-2x"></i></a>
-    </div>
-    <br>
-  </footer>
+  </content>
 
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script src="https://kit.fontawesome.com/0008f661b5.js"></script>
-
-  </body>
+</body>
 </html>

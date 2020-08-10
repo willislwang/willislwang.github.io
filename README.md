@@ -1,2 +1,4 @@
 # willislwang.github.io
-My page! Will rewrite from scratch soon.
+My simple website with both a light and dark theme! 
+
+## Mac

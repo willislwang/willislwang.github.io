@@ -22,6 +22,21 @@
         font-size: 15px;
       }
     }
+    .light-blue {
+      color: #03798b
+    }
+    .bright {
+      color: #222
+    }
+    .dim {
+      color: #6e665f
+    }
+    
+    a {
+      text-decoration: none;
+      padding-right: 12px;
+      font-size: 17px;
+    }
     .inner-wrap {
       max-width: 620px;
       margin: 0 auto;
@@ -38,60 +53,81 @@
     header {
       padding: 120px 0;
     }
+    .block {
+      padding: 0px 0px 50px 0px;
+    }
     .logo {
       font-size: 2.3rem;
       margin-bottom: 40px;
     }
     
     h1 {
-      font-size: 25px;
+      font-size: 23px;
       font-weight: normal;
       line-height: : 155%;
       margin-bottom: 20px;
     }
+    h2 {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 0px;
+    }
     
     footer {
-      border-top: 1px solid #bbb;
+      border-top: 1px solid #c1c9d2;
+      padding: 10px 0px;
     }
-    a {
-      color: #03798b;
-      text-decoration: none;
-      padding-right: 12px;
-      font-size: 17px;
-    }
+
     a:hover {
       text-decoration: underline;
     } 
     @media (prefers-color-scheme: dark) {
-        body {
-          color: #ccc;
-          background: #000;
-        }
-        a {
-          color: #80ecfc;
-        }
+      body {
+        color: #f7fafc;
+        background: #1a2036;
       }
+      .light-blue {
+        color: #80ecfc
+      }
+      .bright {
+        color: #f7fafc
+      }
+      .dim {
+        color: #c1c9d2
+      }
+    }
   </style>
 
 </head>
 <body>
-  <header>
-    <div class="inner-wrap outer-gap">
+  <div class="inner-wrap outer-gap">
+    <header>
       <div class="logo">Willis Wang</div>
-      <a href="https://www.linkedin.com/in/willis-wang-39879540/">Linkedin</a>
-      <a href="https://willislwang.github.io/resume/">Resume</a>
-      <a href="https://github.com/willislwang">Github</a>
+      <a class="light-blue" href="https://www.linkedin.com/in/willis-wang-39879540/">Linkedin</a>
+      <a class="light-blue" href="https://willislwang.github.io/resume/">Resume</a>
+      <a class="light-blue" href="https://github.com/willislwang">Github</a>
+    </header>
+    <div class="block">
+      <h1>Hi! Welcome to my website!</h1>
+      <div class="dim">
+        I am a computer science student at UC Berkeley. <br><br>
+        Currently working as a backend engineer intern at <a class="light-blue" href="https://www.8thwall.com">@8thwall</a><br>working mainly on cloud backend automation. <br><br>
+        
+        Interested in networking, operating systems, and algorithms!
+      </div>
     </div>
-  </header>
-  
-  <content>
-    <div class="inner-wrap outer-gap">
-      <h1>Hi! This is my new static website!</h1>
-      I'll be adding more content later. <br>
-      For now, try playing around by changing light and dark theme!
-      
+    <div class="block">
+      <h1>Projects</h1>
+      <ul>
+        <li>
+          <a class="light-blue" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>WIP</h2></a>
+          <div class="dim">Change that bullet point and spacing</div>
+        </li>
+      </ul>
     </div>
-  </content>
-
+    <footer class="dim">
+      Made at 1 am by <a class="bright" href="https://github.com/willislwang/willislwang.github.io">Willis</a>
+    </footer>
+  </div>
 </body>
 </html>

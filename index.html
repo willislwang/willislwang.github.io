@@ -7,9 +7,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
   <title>Willis Wang</title>
   <style>
-    body{
+    body {
+      position: relative;
+      margin: 0px;
       font-family: 'Libre Baskerville', serif;
       font-weight = normal;
+      min-height: 100vh;
       letter-spacing: 0.006em;
       line-height: 1.5em;
       color: #222;
@@ -48,14 +51,13 @@
     }
     .outer-gap {
       width: calc(100% - 40px);
-      min-height: 100vh;
       padding: 0 20px;
     }
     header {
       padding: 120px 0;
     }
     .block {
-      padding: 0px 0px 50px 0px;
+      padding: 0px 0px 70px 0px;
     }
     .logo {
       font-size: 2.3rem;
@@ -75,7 +77,8 @@
     }
     
     footer {
-      bottom: 0;
+      position: absolute;
+      bottom: 0px;
       border-top: 1px solid #c1c9d2;
       padding: 10px 0px;
     }
@@ -129,9 +132,13 @@
           <a class="light-blue" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>Pintos</h2></a>
           <div class="dim">A mini operating system written in C. Write from the bottom up various functions of the operating system, from processes, syscalls, scheduling, to file systems.</div>
         </li>
+        <li>
+          <a class="light-blue" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>TSP Variation Åpproximater</h2></a>
+          <div class="dim">Use approximation algorithms to find optimal routes for NP problem similar to TSP. Uses a combination of Chistofides, k-means clustering, and local search to find the best solution.</div>
+        </li>
       </ul>
     </div>
-    <footer class="dim">
+    <footer>
       Made and designed by <a class="bright" href="https://github.com/willislwang/willislwang.github.io">Willis</a>
     </footer>
   </div>

@@ -12,6 +12,7 @@
       margin: 0px;
       font-family: 'Libre Baskerville', serif;
       font-weight = normal;
+      font-size: 17px;
       min-height: 100vh;
       letter-spacing: 0.006em;
       line-height: 1.5em;
@@ -38,7 +39,6 @@
     a {
       text-decoration: none;
       padding-right: 12px;
-      font-size: 17px;
     }
     .inner-wrap {
       max-width: 620px;
@@ -55,6 +55,7 @@
     }
     header {
       padding: 120px 0;
+      font-size: 17px;
     }
     .block {
       padding: 0px 0px 70px 0px;
@@ -73,11 +74,24 @@
     h2 {
       font-size: 20px;
       font-weight: normal;
-      margin-bottom: 0px;
+      margin-bottom: -10px;
     }
-    
+    ul {
+      margin-bottom: 40px;
+    }
+    li {
+      margin-right: 30px;
+      margin-bottom: 20px;
+      font-size: 25px;
+    }
+    li span {
+      font-size: 17px;
+    }
     footer {
       position: absolute;
+      font-size: 15px;
+      max-width: 620px;
+      width: calc(100% - 40px);
       bottom: 0px;
       border-top: 1px solid #c1c9d2;
       padding: 10px 0px;
@@ -125,20 +139,26 @@
       <h1>Projects</h1>
       <ul>
         <li>
-          <a class="light-blue" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>TCP Model</h2></a>
-          <div class="dim">A socket implementation (L4-L5/7 absraction) written in Python. Uses a similar TCP protocol which is also often found on the internet.</div>
+          <a class="light-blue project-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>TCP Model</h2></a>
+          <span>
+            <div class="dim">A socket implementation (L4-L5/7 absraction) written in Python. Uses a similar TCP protocol which is also often found on the internet.</div>
+          </span>
         </li>
         <li>
           <a class="light-blue" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>Pintos</h2></a>
-          <div class="dim">A mini operating system written in C. Write from the bottom up various functions of the operating system, from processes, syscalls, scheduling, to file systems.</div>
+          <span>
+            <div class="dim">A mini operating system written in C. Write from the bottom up various functions of the operating system, from processes, syscalls, scheduling, to file systems.</div>
+          </span>
         </li>
         <li>
           <a class="light-blue" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>TSP Variation Åpproximater</h2></a>
-          <div class="dim">Use approximation algorithms to find optimal routes for NP problem similar to TSP. Uses a combination of Chistofides, k-means clustering, and local search to find the best solution.</div>
+          <span>
+            <div class="dim">Use approximation algorithms to find optimal routes for NP problem similar to TSP. Uses a combination of Chistofides, k-means clustering, and local search to find the best solution.</div>
+          </span>
         </li>
       </ul>
     </div>
-    <footer>
+    <footer class="dim">
       Made and designed by <a class="bright" href="https://github.com/willislwang/willislwang.github.io">Willis</a>
     </footer>
   </div>

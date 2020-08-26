@@ -38,6 +38,8 @@
     
     a {
       text-decoration: none;
+    }
+    .header-link {
       padding-right: 12px;
     }
     .inner-wrap {
@@ -84,6 +86,9 @@
       margin-bottom: 20px;
       font-size: 25px;
     }
+    .project-link {
+      padding-right: 12px;
+    }
     li span {
       font-size: 17px;
     }
@@ -122,42 +127,52 @@
   <div class="inner-wrap outer-gap">
     <header>
       <div class="logo">Willis Wang</div>
-      <a class="light-blue" href="https://www.linkedin.com/in/willis-wang-39879540/">Linkedin</a>
-      <a class="light-blue" href="https://willislwang.github.io/resume/">Resume</a>
-      <a class="light-blue" href="https://github.com/willislwang">Github</a>
+      <a class="light-blue header-link" href="https://www.linkedin.com/in/willis-wang-39879540/">Linkedin</a>
+      <a class="light-blue header-link" href="https://willislwang.github.io/resume/">Resume</a>
+      <a class="light-blue header-link" href="https://github.com/willislwang">Github</a>
     </header>
     <div class="block">
       <h1>Hi! Welcome to my website!</h1>
       <div class="dim">
-        I am a computer science student at UC Berkeley. <br><br>
-        Currently working as a backend engineer intern at <a class="light-blue" href="https://www.8thwall.com">@8thwall</a><br>working mainly on cloud backend automation. <br><br>
-        
+        I am a computer science student studying at UC Berkeley.
+        <br><br>
+        Currently working as a undergrad researcher at <a class="light-blue" href="http://www-video.eecs.berkeley.edu/">VIP Lab</a>
+        <br>
+        working on proximity tracing via WiFi for COVID-19. 
+        <br><br>
+        Previously worked as a backend engineer intern at <a class="light-blue" href="https://www.8thwall.com">8th Wall</a>
+        <br>
+        to enhance development workflow and automate pieces of core infrastucture.
+        <br><br>
         Interested in networking, operating systems, and algorithms!
+        <br><br>
+        Will be taking <a class="light-blue" href="https://www2.eecs.berkeley.edu/Courses/CS186/">CS186</a> and <a class="light-blue" href="https://www2.eecs.berkeley.edu/Courses/CS262A/">CS262A</a> this semester!
       </div>
     </div>
     <div class="block">
       <h1>Projects</h1>
+      <div class="dim">Note that there are some links to private repos, I will make them public in the future.</div>
       <ul>
-        <li>
-          <a class="light-blue project-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>TCP Model</h2></a>
-          <span>
-            <div class="dim">A socket implementation (L4-L5/7 absraction) written in Python. Uses a similar TCP protocol which is also often found on the internet.</div>
-          </span>
-        </li>
-        <li>
-          <a class="light-blue" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>Pintos</h2></a>
-          <span>
-            <div class="dim">A mini opearting system written from scratch in C. Implemented kernel syscalls, processes, scheduling, filesystems, caches, etc.</div>
-          </span>
-        </li>
-        <li>
-          <a class="light-blue" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>TSP Variation Åpproximater</h2></a>
+          <li>
+          <a class="light-blue project-link" href="https://github.com/willislwang/CS170"><h2>TSP Variation Approximater</h2></a>
           <span>
             <div class="dim">Use approximation algorithms to find optimal routes for NP problem similar to TSP. Uses a combination of Chistofides, k-means clustering, and local search to find the best solution.</div>
           </span>
         </li>
         <li>
-          <a class="light-blue" href="https://github.com/willislwang/uwubot"><h2>uwubot</h2></a>
+          <a class="light-blue project-link" href="https://github.com/willislwang/pintos"><h2>Pintos</h2></a>
+          <span>
+            <div class="dim">A mini opearting system written from scratch in C. Implemented kernel syscalls, processes, scheduling, filesystems, caches, etc.</div>
+          </span>
+        </li>
+        <li>
+          <a class="light-blue project-link" href="https://github.com/cs168-ucb/cs168-sp20-proj2-tcp-kawaiiCirno"><h2>TCP Model</h2></a>
+          <span>
+            <div class="dim">A socket implementation (L4-L5/7 absraction) written in Python. Uses a similar TCP protocol which is also often found on the internet.</div>
+          </span>
+        </li>
+        <li>
+          <a class="light-blue project-link" href="https://github.com/willislwang/uwubot"><h2>uwubot</h2></a>
           <span>
             <div class="dim">A fun little discord bot with the intent of making cute comments and spreading culture. The bot translates any previous comment into uwu language.</div>
           </span>
